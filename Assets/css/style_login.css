@@ -1,0 +1,23 @@
+.fondo {
+  background-image: url("/assets/img/hero-img.png");
+  background-size: cover;
+  width: 100;
+  height: 100;
+  margin-right: -5px;
+  margin: 0px;
+}
+.loginContainer {
+  background-color: rgba(223, 223, 223, 0.8);
+}
+.textoIngresar {
+  color: black;
+  font-family: Jeko, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  max-width: 900px;
+}
+.textoLabel {
+  font-size: 18px;
+  color: #575a76;
+  font-family: "Inter", sans-serif;
+}

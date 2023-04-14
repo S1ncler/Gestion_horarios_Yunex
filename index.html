@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- se importa el css de bootstrap -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css" />
+    <!-- Se importa el css propio -->
+    <link rel="stylesheet" href="Assets/css/style_login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- div general para contener la imagen de fondo -->
+    <div class="fondo">
+      <!-- header con el logo de yunex -->
+      <header class="w-80">
+        <div class="container p-3 ms-5 w-80">
+          <div class="col-1">
+            <img
+              style="width: 150px; height: auto"
+              src="Assets/img/yunex.56a477.svg"
+              alt="Logo Yunex"
+            />
+          </div>
+        </div>
+      </header>
+      <!-- seccion con el login -->
+      <section
+        class="container-fluid align-content-center justify-content-center w-100 pt-3 mt-3 mb-3"
+      >
+        <!-- espacio izquierdo -->
+        <div class="col-1 col-sm-1 col-md-3 col-xl-4 col-xxl-4"></div>
+        <!-- espacio central con el contenido del login -->
+        <div
+          class="col-10 col-sm-10 col-md-6 col-xl-4 col-xxl-4 container-fluid rounded-4 loginContainer mt-3 mb-3"
+        >
+          <!-- espacio para el titulo login -->
+          <div class="row align-content-center justify-content-center">
+            <div
+              class="col-12 text-center justify-content-center align-content-center w-100 pt-4 mb-4"
+            >
+              <span class="textoIngresar">Iniciar Sesion</span>
+            </div>
+            <!-- espacio del formulario -->
+            <div class="row">
+              <form class="container col-12" action="">
+                <!-- div correo -->
+                <div class="row pt-2 m-2">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="telOrEmail"
+                      name="Email"
+                      placeholder="Correo"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                </div>
+                <!-- div contraseña -->
+                <div class="row pt-2 m-2">
+                  <div class="input-group mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="pass"
+                      name="pass"
+                      placeholder="Contraseña"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
+                  </div>
+                  <a class="text-decoration-none align-text-bottom" href="#"
+                    >Olvidaste tu contraseña</a
+                  >
+                </div>
+                <div class="row ps-5 pe-5 mb-5 mt-5">
+                  <button type="submit" class="btn btn-primary">
+                    Ingresar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- espacio derecho -->
+        <div class="col-1 col-sm-1 col-md-3 col-xl-4 col-xxl-4"></div>
+      </section>
+      <!-- footer para los datos de contacto -->
+      <div style="background-color: white">
+        <footer class="footer w-100 pt-4">
+          <section class="widget block-3 widget_block">
+            <div class="wp-bootstrap-blocks-container container mb-2">
+              <div class="wp-bootstrap-blocks-row row">
+                <div class="col-12 col-md-3">
+                  <figure class="wp-block-image size-large">
+                    <img
+                      decoding="async"
+                      loading="lazy"
+                      width="128"
+                      height="47"
+                      src="Assets/img/yunex.56a477.svg"
+                      alt="Logo yunex"
+                      class="wp-image-223"
+                    />
+                  </figure>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-2">
+                  <span class="textoLabel">Whatsapp</span>
+
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <span class="textoLabel">3006291996</span>
+                </div>
+
+                <div class="col-12 col-md-2">
+                  <div
+                    class="wp-block-group footer-social-links is-nowrap is-layout-flex wp-container-3"
+                  >
+                    <figure class="wp-block-image size-large">
+                      <a
+                        class="footer-social footer-social--twitter"
+                        href="https://twitter.com/yunextraffic"
+                        target="_blank"
+                        rel=" noreferrer noopener"
+                        ><img
+                          decoding="async"
+                          loading="lazy"
+                          width="23"
+                          height="18"
+                          src="https://www.yunextraffic.com/wp-content/uploads/2022/10/logo-twitter.svg"
+                          alt=""
+                          class="wp-image-973"
+                      /></a>
+                    </figure>
+
+                    <figure class="wp-block-image size-large">
+                      <a
+                        class="footer-social footer-social--linked-in"
+                        href="https://www.linkedin.com/company/yunextraffic/about/"
+                        target="_blank"
+                        rel=" noreferrer noopener"
+                        ><img
+                          decoding="async"
+                          loading="lazy"
+                          width="24"
+                          height="24"
+                          src="https://www.yunextraffic.com/wp-content/uploads/2022/10/logo-linkedin.svg"
+                          alt=""
+                          class="wp-image-972"
+                      /></a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </footer>
+      </div>
+    </div>
+    <!-- Se importa el javascript de bootstrap -->
+    <script src="Assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
